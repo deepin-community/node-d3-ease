@@ -1,0 +1,55 @@
+node-d3-ease (1.0.5-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.4.1, no changes needed.
+  * Apply multi-arch hints.
+    + node-d3-ease: Add Multi-Arch: foreign.
+
+  [ Pirate Praveen ]
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+  * Use pkg-js-tools auto install
+  * Use node-rollup-plugin-terser (now available in the archive)
+  * Enable nocheck build profile
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 15 Dec 2020 14:58:51 +0530
+
+node-d3-ease (1.0.5-2) unstable; urgency=medium
+
+  * Reupload to unstable
+  * Make build reproducible
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 07 Jul 2019 14:44:46 +0530
+
+node-d3-ease (1.0.5-1) experimental; urgency=medium
+
+  * New upstream version 1.0.5
+  * Use rollup.config.js, install ES module
+  * Switch to pkg-js-tools for tests
+  * Bump Standards-Version to 4.3.0 (no changes needed)
+  * Use salsa.debian.org in Vcs-* fields
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 19 Jun 2019 17:49:24 +0530
+
+node-d3-ease (1.0.3-3) unstable; urgency=medium
+
+  * Build using rollup (webpack was used when rollup was not available in main)
+  * Bump debhelper compat to 11
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 01 Mar 2018 16:38:26 +0530
+
+node-d3-ease (1.0.3-2) unstable; urgency=medium
+
+  * Use webpack to build umd module like upstream
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 06 Jan 2018 14:28:57 +0530
+
+node-d3-ease (1.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #877522)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 02 Oct 2017 19:54:52 +0530
