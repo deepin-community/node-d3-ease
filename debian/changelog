@@ -1,3 +1,38 @@
+node-d3-ease (1.0.7+~1.0.11-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.2, no changes needed.
+  * Embed typescript declarations
+  * New upstream version 1.0.7+~1.0.11
+
+ -- Yadd <yadd@debian.org>  Sat, 09 Sep 2023 17:34:10 +0400
+
+node-d3-ease (1.0.5-5) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Add fix for rollup 3 (Closes: #1022581)
+
+ -- Yadd <yadd@debian.org>  Wed, 26 Oct 2022 08:35:35 +0200
+
+node-d3-ease (1.0.5-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+  [ Paul Gevers ]
+  * Drop dependency on nodejs (Closes: #1009952)
+
+ -- Paul Gevers <elbrus@debian.org>  Sat, 28 May 2022 21:04:30 +0200
+
 node-d3-ease (1.0.5-3) unstable; urgency=medium
 
   [ Debian Janitor ]
